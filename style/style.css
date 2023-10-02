@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital@0;1&family=Anton&family=Sarabun:wght@800&display=swap');
+@import url('https://fonts.cdnfonts.com/css/dash-horizon');
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration:none;
+    color: black;
+
+
+}
+main {
+    height: 100vh;
+    width: 100vw;
+    background-color: #5CE1E6;
+}
+
+#left {
+
+    position: absolute;
+    width: 40px;
+    height: 100vh;
+    margin-left: 10px;
+    background-color: white;
+}
+#container1 {
+    margin-left: 50px;
+    display: flex;
+    height: 50vh;
+}
+#container1>div{
+    width: 400px;
+}
+#container1>div:nth-child(1) {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(/img/1.png);
+}
+#container1>div:nth-child(2) {  
+    font-family: 'Sarabun';
+    font-weight: 800;
+    font-size: 40px;
+    align-self: center;
+    text-align: center;
+}
+
+#container2 {
+    margin-left: 50px;
+    display: flex;    
+    height: 50vh;
+
+}
+#container2>div {
+    width: 380px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#container2>div:nth-child(2) {
+
+    background-image: url(/img/2.png);
+}
+#container2>div:nth-child(1){
+    padding-left: 20px;
+    line-height: 1.5;
+    font-family: 'Anonymous Pro';
+    font-weight: 800;
+    font-size: 20px;
+}
+#p1{
+    padding-top: 120px;
+}
+#p2{
+    padding-top: 20px;
+    font-size: 15px;
+
+}
+#interno {
+    padding-top: 94%;
+    padding-left: 25%;
+    font-family: 'Anton';
+    color: white;
+    text-align: center;
+}
